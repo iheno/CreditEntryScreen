@@ -1,7 +1,6 @@
 # CreditEntryScreen
 
-![Image of CreditEntry]
-(https://iheno.github.io/CreditEntryScreen/img/screen.png)
+![CreditEntryScreen](https://iheno.github.io/CreditEntryScreen/img/screen.png "CreditEntryScreen")
 
 
 # CreditEntryScreenr
