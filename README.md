@@ -253,7 +253,7 @@ button, button:focus {
 
 ```
 <!DOCTYPE html>
-<html lang="zh-cmn-Hant-TW">
+<html lang="">
 
 <head>
 	<meta charset="utf-8">
@@ -276,83 +276,82 @@ button, button:focus {
 </head>
 
 <body>
-	<div class="creditWarp">
-		<div class="credit__box">
-			<div class="credit__title">
-				<h3>信用卡</h3>
-				<p>可以利用的信用卡品牌</p>
-				<ul>
-					<li><img src="img/visa.svg" alt="visa" /></li>
-					<li><img src="img/mastercard.svg" alt="mastercard" /></li>
-				</ul>
-			</div>
-			<hr class="boxLinner">
-			<form>
-				<div class="credit__form">
-					<label class="credit__form__label">信用卡號碼</label>
-					<input class="credit__form__input" placeholder="**** **** **** ****" type="tel" maxlength="19" autocomplete="cc-number">
-				</div>
-				<div class="credit__form">
-					<label class="credit__form__label">持卡人</label>
-					<input class="credit__form__input" placeholder="姓名（英文）" autocomplete="cc-name">
-				</div>
-				<div class="credit__select">
-					<label class="credit__form__label">有效日期</label>
-					<ul class="credit__info">
-						<li>
-							<select class="credit__form__select dateSelectMon" title="月">
-								<option value="">月</option>
-								<option value="0">01</option>
-								<option value="1">02</option>
-								<option value="2">03</option>
-								<option value="3">04</option>
-								<option value="4">05</option>
-								<option value="5">06</option>
-								<option value="6">07</option>
-								<option value="7">08</option>
-								<option value="8">09</option>
-								<option value="9">10</option>
-								<option value="10">11</option>
-								<option value="11">12</option>
-							</select>
-						</li>
-						<li>
-							<select class="credit__form__select dateSelectYear" title="年">
-								<option value="">年</option>
-								<option value="0">2019</option>
-								<option value="1">2020</option>
-								<option value="2">2021</option>
-								<option value="3">2022</option>
-								<option value="4">2023</option>
-								<option value="5">2024</option>
-								<option value="6">2025</option>
-								<option value="7">2026</option>
-								<option value="8">2027</option>
-								<option value="9">2028</option>
-								<option value="10">2029</option>
-								<option value="11">2030</option>
-							</select>
-						</li>
-					</ul>
-				</div>
-				<div class="credit__cvv">
-					<label class="credit__form__label">CVV / CVC</label>
-					<div class="credit__info">
-						<input class="credit__form__input dateCvv" placeholder="CVV" type="number" maxlength="4">
-					</div>
-				</div>
-			</form>
+<div class="creditWarp">
+<div class="credit__box">
+<div class="credit__title">
+<h3>My Credit Card</h3>
+<p>Available credit cards</p>
+<ul>
+	<li><img src="img/visa.svg" alt="visa" /></li>
+	<li><img src="img/mastercard.svg" alt="mastercard" /></li>
+</ul>
+</div>
+<hr class="boxLinner">
+<form>
+<div class="credit__form">
+	<label class="credit__form__label">Card Number</label>
+	<input class="credit__form__input" placeholder="**** **** **** ****" type="tel" maxlength="19" autocomplete="cc-number">
+</div>
+<div class="credit__form">
+	<label class="credit__form__label">Name</label>
+	<input class="credit__form__input" placeholder="Name（english）" autocomplete="cc-name">
+</div>
+<div class="credit__select">
+<label class="credit__form__label">Validity Period</label>
+<ul class="credit__info">
+<li>
+<select class="credit__form__select dateSelectMon" title="Month">
+<option value="0">01</option>
+<option value="1">02</option>
+<option value="2">03</option>
+<option value="3">04</option>
+<option value="4">05</option>
+<option value="5">06</option>
+<option value="6">07</option>
+<option value="7">08</option>
+<option value="8">09</option>
+<option value="9">10</option>
+<option value="10">11</option>
+<option value="11">12</option>
+</select>
+</li>
+<li>
+<select class="credit__form__select dateSelectYear" title="Year">
+<option value="0">2019</option>
+<option value="1">2020</option>
+<option value="2">2021</option>
+<option value="3">2022</option>
+<option value="4">2023</option>
+<option value="5">2024</option>
+<option value="6">2025</option>
+<option value="7">2026</option>
+<option value="8">2027</option>
+<option value="9">2028</option>
+<option value="10">2029</option>
+<option value="11">2030</option>
+</select>
+</li>
+</ul>
+</div>
+<div class="credit__cvv">
+<label class="credit__form__label">CVV / CVC</label>
+<div class="credit__info">
+<input class="credit__form__input dateCvv" placeholder="CVV" type="number" maxlength="4">
+</div>
+</div>
+</form>
 
-			<div class="credit__btn">
-				<button type="submit" class="creditBtn"><span>註冊</span></button>
-			</div>
-		</div>
+<div class="credit__btn">
+<button type="submit" class="creditBtn"><span>Registration</span></button>
+</div>
+</div>
 
-	</div>
+</div>
 
 </body>
 
 </html>
+
 
 
 ```
