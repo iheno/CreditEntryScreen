@@ -1,5 +1,8 @@
 # CreditEntryScreen
 
+![Image of CreditEntry]
+(https://iheno.github.io/CreditEntryScreen/img/screen.png)
+
 # CreditEntryScreenr
 
 ## css
